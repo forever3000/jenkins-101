@@ -12,6 +12,7 @@ pipeline {
             steps {
                 echo "Building.."
                 sh '''
+                cd myapp
                 echo "doing build stuff.."
                 '''
             }
